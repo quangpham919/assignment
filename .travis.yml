@@ -1,3 +1,4 @@
+#QuangPham - 101136246
 language: node_js
 
 node_js:
@@ -7,7 +8,4 @@ cache: npm
 
 before_install:
   - ls -la
-<<<<<<< HEAD
-=======
-  
->>>>>>> 2759b06f01f20c42a45ac2e05e5fc7969e111d16
+
