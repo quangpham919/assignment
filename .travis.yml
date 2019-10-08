@@ -1,3 +1,18 @@
+language: node.js
+
+
+node_js:
+  - "10.9.0"
+
+cache : npm
+
+before_install:
+mkdir dist
+cd dist
+
+
+
+cache: npm
 before_install:
 #create a dicrectory named dist
 mkdir dist
