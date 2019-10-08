@@ -8,17 +8,17 @@ cache : npm
 
 before_install:
 #create a dicrectory named dist
-mkdir dist
+-mkdir dist
 #change into dist 
-cd dist
+-cd dist
 #list all operation
-ls -la
+-ls -la
 
 install:
-ls -la
+-ls -la
 #Install dependencies
-npm install 
-ls -la
+-npm install 
+-ls -la
 
 
 
