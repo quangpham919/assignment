@@ -7,13 +7,6 @@ node_js:
 cache : npm
 
 before_install:
-mkdir dist
-cd dist
-
-
-
-cache: npm
-before_install:
 #create a dicrectory named dist
 mkdir dist
 #change into dist 
