@@ -19,7 +19,7 @@ ls -la
 #Install dependencies
 npm install 
 ls -la
-cd node_modules
-ls -la
+
+
 
 
