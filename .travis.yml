@@ -1,0 +1,17 @@
+before_install:
+#create a dicrectory named dist
+mkdir dist
+#change into dist 
+cd dist
+#list all operation
+ls -la
+
+install:
+ls -la
+#Install dependencies
+npm install 
+ls -la
+cd node_modules
+ls -la
+
+
