@@ -1,4 +1,3 @@
-#https://github.com/quangpham919/assignment/tree/assignment
 language: node_js
 node_js:
   - 10.9.0
@@ -8,7 +7,7 @@ before_install:
   - npm install
   - "npm config set spin false"
   - npm i -g now
-<<<<<<< HEAD
+
 script:
 - npm run build
 - npm run test
@@ -18,7 +17,6 @@ deploy:
   -  skip_cleanup:true
   
     
->>>>>>> 54c47d746ee382d30ac758f5c5784781a394a88d
 notifications:
   slack:
     secure: XpmsDOwzgFVdDYftqKdtUe2TOwD/xeR0Knv0jbxxH+RWFhJqwund0KxuGgiOl9iIIu6OIbebvH2I9U+qDWoWcX22Mfmezonur0tX3ADNlpqs5UpG2VgzUszqOXM8bg+DNZKnOSNtKnOEkzzFByd4F7UG8tYYBJZ3DoVOvmL+lUfSBlIlcxCq7GhtV5WY/JwI73oa2PKOOYRvN6pQA0U2bEAUtzVJcFiEkfwh9ZCh/8PwEJeWsaYOzRXvHEZj76iH66WejxT33BXXtwtpurq54cXU8b7Xa+1avtXwSqj6AGsRDwPlgbe6AwcMnlmXMHWmKYo0ji8oj4zmHzca8amBDZ1ACWKafIPW0eSL7ncLkHYxnUgfMOPq/ewo6Idu36JlEAczEFnMtFeQ5yYt/eFajoWSnDCiiPd4j0f6ZGDsSIM+dY2KEOPFz+p79/CZpXQd5pqrRjMVBZR614uvZGx6NDJkdt/lLs4iR13HZBoDXNK8h4GeZNpn7DydoXmgwKL5YSQub3BRdovlPukDpexFbYxKuUCav2RJd6sihhJ4Gr9vlyDS3NZCAPWqbRf44mpl1bLToXzoxrGuTlvghD3bkHLE9FKS+6mV9+b4ZCfs0swVnYSfvtIWFy1REGh+82x/Ty18EYjdhkbcnrKerOngPxCzZ/d9oQgTDgi+5PCaKXg=
