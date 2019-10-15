@@ -14,16 +14,8 @@ deploy:
   - provider: scripts 
     script: bash scripts/deploy.sh
     skip_cleanup:true
-  #!bin/bash
-  - now public --token=$NOW_TOKEN
-
-=======
-deploy:
-  - provider: script
-    script: bash scripts/deploy.sh
-    skip_cleanup: true
-    #!/bin/bash
-    now public --token=$NOW_TOKEN
+  
+    
 >>>>>>> 54c47d746ee382d30ac758f5c5784781a394a88d
 notifications:
   slack:
