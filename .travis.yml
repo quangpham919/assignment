@@ -10,11 +10,12 @@ before_install:
   - npm i -g now
 
 script:
-- npm run build
-- npm run test
+ - npm run build
+ - npm run test
+
 deploy:
- provider: scripts 
- script: bash scripts/deploy.sh
- skip_cleanup:true
+  provider: scripts 
+  script: bash scripts/deploy.sh
+  skip_cleanup:true
   
     
