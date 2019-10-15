@@ -1,3 +1,4 @@
+
 language: node_js
 node_js:
   - 10.9.0
@@ -12,8 +13,8 @@ script:
 - npm run build
 - npm run test
 deploy:
-   provider: scripts 
-   script: bash scripts/deploy.sh
-   skip_cleanup:true
+ provider: scripts 
+ script: bash scripts/deploy.sh
+ skip_cleanup:true
   
     
