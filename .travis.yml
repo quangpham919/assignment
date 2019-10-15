@@ -17,5 +17,3 @@ deploy:
   provider: scripts 
   script: bash scripts/deploy.sh
   skip_cleanup: true
-  
-    
